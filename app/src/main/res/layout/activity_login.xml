@@ -54,19 +54,29 @@
                     android:imeOptions="actionUnspecified" android:inputType="textPassword"
                     android:maxLines="1" android:singleLine="true" />
 
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/autologin"
+                    android:id="@+id/checkBox"
+                    android:layout_gravity="left|center_horizontal"
+                    android:checked="false" />
+
                 <Button android:id="@+id/email_sign_in_button" style="?android:textAppearanceSmall"
                     android:layout_width="240dp" android:layout_height="wrap_content"
                     android:text="@string/action_sign_in"
                     android:textStyle="bold"
                     android:width="@dimen/abc_action_button_min_width_material"
-                    android:layout_gravity="center_horizontal" />
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true" />
 
                 <Button android:id="@+id/email_sign_up_button" style="?android:textAppearanceSmall"
                     android:layout_width="240dp" android:layout_height="wrap_content"
                     android:text="@string/action_sign_up"
                     android:textStyle="bold"
                     android:width="@dimen/abc_action_button_min_width_material"
-                    android:layout_gravity="center_horizontal" />
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="true" />
 
             </LinearLayout>
         </LinearLayout>
@@ -78,7 +88,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/termsconditions"
         android:id="@+id/termsandconditions"
-        android:textColor="#31000000" />
+        android:textColor="#31000000"
+        android:clickable="true" />
 
 </LinearLayout>
 

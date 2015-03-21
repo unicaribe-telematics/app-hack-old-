@@ -1,9 +1,28 @@
 <resources>
-    <string name="app_name">My Application</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Denuncia Ciudadana</string>
     <string name="action_settings">Settings</string>
     <string name="main_sign">Sign Up</string>
     <string name="main_log">Log In</string>
-    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_main_menu">Menu Principal</string>
+    <string name="title_activity_process_menu">ProcessMenu</string>
+
+    <string name="menu_label">Menu Principal</string>
+    <string name="menu_history">Ver Historial</string>
+    <string name="menu_complaint">Realizar Denuncia</string>
+    <string name="menu_pdata">Configurar Datos Personales</string>
+    <string name="menu_changepass">Cambiar Contraseña</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <string name="process_load">Cargar Imagen</string>
+    <string name="process_address">*Dirección del Incidente</string>
+    <string name="process_firstn">Apellidos</string>
+    <string name="process_lastn">Nombre(s)</string>
+    <string name="process_phone">Teléfono</string>
+    <string name="process_state">*Estado</string>
+    <string name="process_city">*Municipio</string>
+    <string name="process_org">*Organización</string>
+    <string name="process_other_org">*Dirección de Contacto</string>
+    <string name="process_accept">Aceptar</string>
+    <string name="process_cancel">Cancelar</string>
+
 </resources>
