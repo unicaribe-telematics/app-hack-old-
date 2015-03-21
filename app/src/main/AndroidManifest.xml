@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.javi.myapplication" >
-    <uses-sdk tools:overrideLibrary="com.google.android.gms.all"/>
-    <!-- To access Google+ APIs: -->
+
     <uses-permission android:name="android.permission.INTERNET" />
     <!--
  To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
@@ -44,6 +43,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:valuex="com.javi.myapplication.MainMenu" />
+        </activity>
+        <activity
+            android:name=".PersonalData"
+            android:label="@string/title_activity_personal_data"
+            android:parentActivityName=".MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.javi.myapplication.MainMenu" />
         </activity>
     </application>
 
