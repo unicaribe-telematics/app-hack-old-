@@ -1,0 +1,17 @@
+<resources>
+    <string name="title_activity_login">Inicio de Sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="action_sign_up">Registrarse</string>
+    <string name="plus_sign_out">Cambiar cuenta de Google+</string>
+    <string name="plus_disconnect">Desconectarse de Google+</string>
+    <string name="error_invalid_email">El correo es incorrecto</string>
+    <string name="error_invalid_password">La contraseña no es suficientemente larga</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="termsconditions">Terminos y Condiciones</string>
+</resources>
